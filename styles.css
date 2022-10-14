@@ -1,0 +1,257 @@
+@font-face {
+  font-family: cabin;
+  src: url("Cabin-Regular-TTF.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cabin, sans-serif;
+}
+
+body {
+  background: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  color: #c95e00;
+}
+
+a:hover {
+  color: maroon;
+}
+
+.container {
+  position: relative;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+}
+
+.container .personal-info {
+  position: relative;
+  background: maroon;
+  padding: 40px;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 10px double #dda06a;
+  border-bottom: 10px double #dda06a;
+  border-radius: 10%;
+}
+
+.profile .profile-pic {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 5px outset #dda06a;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.profile .profile-pic img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-text {
+  color: #dda06a;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+
+.profile-text h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.profile-text span {
+  font-size: 1.25em;
+  font-weight: 200;
+}
+
+.profile-text p {
+  font-size: 0.75em;
+  padding-top: 10px;
+}
+
+.contact-info {
+  padding-top: 40px;
+}
+
+.title {
+  color: #dda06a;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  position: relative;
+}
+
+.contact-info ul li {
+  color: #dda06a;
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contact-info ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 14px;
+  color: #ffd642;
+}
+
+.contact-info ul li .text {
+  font-family: cabin, sans-serif;
+  font-size: 0.8em;
+}
+
+.contact-info ul li .text a {
+  color: #dda06a;
+}
+
+.contact-info ul li .text a:hover {
+  color: #ffd642;
+}
+
+.education .title {
+  padding-top: 30px;
+}
+
+.education ul {
+  position: relative;
+}
+
+.education ul li {
+  color: #dda06a;
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.education h5,
+.education h4 {
+  font-family: cabin, sans-serif;
+  font-weight: 100;
+  padding: 5px 0;
+}
+
+.education .degree {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.education h5 {
+  color: #ffd642;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.container .application-info {
+  position: relative;
+  background: #ffc089;
+  padding: 40px;
+}
+
+.about {
+  margin: 10px 0 30px;
+}
+
+.about-me {
+  border: 5px inset maroon;
+  border-radius: 10px;
+  background-color: #dda06a;
+  padding: 5px;
+}
+
+.application-info p {
+  font-weight: 700;
+}
+
+.about:last-child {
+  margin-bottom: 0;
+}
+
+.title2 {
+  color: maroon;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.about ul {
+  border: 5px inset maroon;
+  border-radius: 10px;
+  background-color: #dda06a;
+  padding: 5px;
+}
+
+.about ul .project {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.about ul .title3 {
+  color: maroon;
+}
+
+.about ul .caption {
+  font-size: 0.8em;
+  font-weight: 800;
+  padding: 1px 0;
+}
+
+.skill-box ul {
+  columns: 2 200px;
+  border: 5px inset maroon;
+  border-radius: 10px;
+  background-color: #dda06a;
+  padding: 5px 0;
+}
+
+.skill-box ul li {
+  list-style: none;
+  color: maroon;
+  font-weight: 800;
+  font-size: 1.3em;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
