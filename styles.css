@@ -19,16 +19,16 @@ body {
 }
 
 a {
-  color: #c95e00;
+  color: #18186d;
 }
 
 a:hover {
-  color: maroon;
+  color: #174f97;
 }
 
 .container {
   position: relative;
-  background: #fff;
+  background: #ddd;
   display: grid;
   grid-template-columns: 1fr 2fr;
   width: 100%;
@@ -39,7 +39,7 @@ a:hover {
 
 .container .personal-info {
   position: relative;
-  background: maroon;
+  background: #2c446f;
   padding: 40px;
 }
 
@@ -51,8 +51,8 @@ a:hover {
   max-width: 300px;
   margin: 0 auto;
   padding: 20px 0;
-  border-top: 10px double #dda06a;
-  border-bottom: 10px double #dda06a;
+  border-top: 10px double #0e0e0f;
+  border-bottom: 10px double #0e0e0f;
   border-radius: 10%;
 }
 
@@ -61,7 +61,7 @@ a:hover {
   width: 200px;
   height: 200px;
   margin-bottom: 20px;
-  border: 5px outset #dda06a;
+  border: 5px outset #0e0e0f;
   border-radius: 5%;
   overflow: hidden;
 }
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .profile-text {
-  color: #dda06a;
+  color: #0e0e0f;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.4em;
@@ -104,7 +104,7 @@ a:hover {
 }
 
 .title {
-  color: #dda06a;
+  color: #0e0e0f;
   text-align: center;
   font-weight: 300;
   text-transform: uppercase;
@@ -117,18 +117,17 @@ a:hover {
 }
 
 .contact-info ul li {
-  color: #dda06a;
+  color: #0e0e0f;
   position: relative;
   list-style: none;
   margin: 10px 0;
-  cursor: pointer;
 }
 
 .contact-info ul li .icon {
   display: inline-block;
   width: 30px;
   font-size: 14px;
-  color: #ffd642;
+  color: #eee;
 }
 
 .contact-info ul li .text {
@@ -137,11 +136,11 @@ a:hover {
 }
 
 .contact-info ul li .text a {
-  color: #dda06a;
+  color: #0e0e0f;
 }
 
 .contact-info ul li .text a:hover {
-  color: #ffd642;
+  color: #eee;
 }
 
 .education .title {
@@ -153,11 +152,10 @@ a:hover {
 }
 
 .education ul li {
-  color: #dda06a;
+  color: #0e0e0f;
   position: relative;
   list-style: none;
   margin: 10px 0;
-  cursor: pointer;
 }
 
 .education h5,
@@ -173,14 +171,42 @@ a:hover {
 }
 
 .education h5 {
-  color: #ffd642;
+  color: #eee;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.languages .title {
+  padding-top: 30px;
+}
+
+.languages ul li {
+  color: #0e0e0f;
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.languages h5,
+.languages h4 {
+  font-family: cabin, sans-serif;
+  font-weight: 100;
+  padding: 5px 0;
+}
+
+.languages h4 {
+  padding: 5px 30px;
+}
+
+.languages h5 {
+  color: #eee;
   font-weight: 300;
   font-size: 1em;
 }
 
 .container .application-info {
   position: relative;
-  background: #ffc089;
+  background: #ddd;
   padding: 40px;
 }
 
@@ -189,9 +215,9 @@ a:hover {
 }
 
 .about-me {
-  border: 5px inset maroon;
+  border: 5px inset #2c446f;
   border-radius: 10px;
-  background-color: #dda06a;
+  background-color: #eee;
   padding: 5px;
 }
 
@@ -204,16 +230,16 @@ a:hover {
 }
 
 .title2 {
-  color: maroon;
+  color: #2c446f;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
 
 .about ul {
-  border: 5px inset maroon;
+  border: 5px inset #2c446f;
   border-radius: 10px;
-  background-color: #dda06a;
+  background-color: #eee;
   padding: 5px;
 }
 
@@ -223,7 +249,7 @@ a:hover {
 }
 
 .about ul .title3 {
-  color: maroon;
+  color: #2c446f;
 }
 
 .about ul .caption {
@@ -234,15 +260,15 @@ a:hover {
 
 .skill-box ul {
   columns: 2 200px;
-  border: 5px inset maroon;
+  border: 5px inset #2c446f;
   border-radius: 10px;
-  background-color: #dda06a;
+  background-color: #eee;
   padding: 5px 0;
 }
 
 .skill-box ul li {
   list-style: none;
-  color: maroon;
+  color: #2c446f;
   font-weight: 800;
   font-size: 1.3em;
   margin-left: 10px;
